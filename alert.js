@@ -1,4 +1,4 @@
-var showAlert = function(message,header,type,icon,closeDelay) {
+function showAlert(message,header,type,icon,closeDelay) {
    if ($("#pr-alert").length == 0) {
       type = type || "info";
       $('body').append('<div class="modal" data-backdrop="static" tabindex="-1" id="pr-alert">'+
